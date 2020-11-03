@@ -1,0 +1,41 @@
+.head{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+
+}
+
+.instalogo > img{
+    height: 50px;
+    object-fit: contain;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: #f8f8f8;
+}
+
+.search > input{
+    outline-width: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icons > .MuiSvgIcon-root{
+    margin-left: 10px;
+}
